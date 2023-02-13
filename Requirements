@@ -1,0 +1,22 @@
+HARDWARE:-
+ARM 7 LPC2148 Board 
+ESP8266 WIFI MODULE
+DHT11
+
+
+SOFTWARE:-
+Keil uVersion5
+Hyperterminal
+Flash Magic (Programming)
+Thingspeak Account 
+
+
+
+-- AT commands used for data tramission
+
+-- AT+RST
+-- AT+CWJAP="WIFINAME","Password"
+-- AT+CIPSTART="TCP","184.106.153.149",80
+-- AT+CIPSEND=49
+-- GET /update?api_key=XXXXXXXXXXXXXXXX&field1=000
+-- AT+CLOSE
